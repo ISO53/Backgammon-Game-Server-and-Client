@@ -1,0 +1,15 @@
+{
+  "name": "tavlagameclient",
+  "version": "1.0.0",
+  "description": "tavla game client",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "iso",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.1.2"
+  }
+}

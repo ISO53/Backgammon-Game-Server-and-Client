@@ -1,0 +1,78 @@
+[2023-05-16T20:47:01.399319300] [SERVER] -> Server started and listening on port 8080
+[2023-05-17T12:31:32.830450900] [SERVER] -> Server started and listening on port 8080
+[2023-05-17T12:38:41.227552300] [CLIENT | /127.0.0.1:57319] -> Connection Established: /127.0.0.1:57319
+[2023-05-17T12:38:50.902600800] [CLIENT | /127.0.0.1:57325] -> Connection Established: /127.0.0.1:57325
+[2023-05-17T12:40:10.968125300] [SERVER] -> Server started and listening on port 8080
+[2023-05-17T12:46:37.921299700] [SERVER] -> Server started and listening on port 8080
+[2023-05-17T12:48:35.847722600] [SERVER] -> Server started and listening on port 8080
+[2023-05-17T12:54:49.897230300] [CLIENT | /127.0.0.1:58420] -> Connection Established: /127.0.0.1:58420
+[2023-05-17T12:54:58.670988200] [CLIENT | /127.0.0.1:58427] -> Connection Established: /127.0.0.1:58427
+[2023-05-17T12:56:13.001889900] [CLIENT | /127.0.0.1:58420] -> Connection reset
+[2023-05-17T12:56:13.014911800] [CLIENT | /127.0.0.1:58420] -> ihsan's connection closed: /127.0.0.1:58420
+[2023-05-17T12:56:13.837797200] [CLIENT | /127.0.0.1:58427] -> Connection reset
+[2023-05-17T12:56:13.838797600] [CLIENT | /127.0.0.1:58427] -> ahmet's connection closed: /127.0.0.1:58427
+[2023-05-17T12:56:26.714842] [CLIENT | /127.0.0.1:58510] -> Connection Established: /127.0.0.1:58510
+[2023-05-17T12:56:42.561946100] [CLIENT | /127.0.0.1:58545] -> Connection Established: /127.0.0.1:58545
+[2023-05-17T13:08:04.236708100] [CLIENT | /127.0.0.1:58545] -> Connection reset
+[2023-05-17T13:08:04.238710] [CLIENT | /127.0.0.1:58545] -> ahmet's connection closed: /127.0.0.1:58545
+[2023-05-17T13:08:04.547708200] [CLIENT | /127.0.0.1:58510] -> Connection reset
+[2023-05-17T13:08:04.548710900] [CLIENT | /127.0.0.1:58510] -> ihsan's connection closed: /127.0.0.1:58510
+[2023-05-18T20:39:15.305448200] [SERVER] -> Server started and listening on port 8080
+[2023-05-18T20:40:29.471614500] [CLIENT | /127.0.0.1:61068] -> Connection Established: /127.0.0.1:61068
+[2023-05-18T20:40:42.707511600] [CLIENT | /127.0.0.1:61071] -> Connection Established: /127.0.0.1:61071
+[2023-05-18T20:50:59.027818500] [CLIENT | /127.0.0.1:61068] -> Connection reset
+[2023-05-18T20:50:59.044812] [CLIENT | /127.0.0.1:61068] -> ihsan's connection closed: /127.0.0.1:61068
+[2023-05-18T20:50:59.137820100] [CLIENT | /127.0.0.1:61071] -> Connection reset
+[2023-05-18T20:50:59.139817500] [CLIENT | /127.0.0.1:61071] -> ahmet's connection closed: /127.0.0.1:61071
+[2023-05-18T21:18:10.140189100] [CLIENT | /127.0.0.1:61174] -> Connection Established: /127.0.0.1:61174
+[2023-05-18T21:18:20.899004700] [CLIENT | /127.0.0.1:61178] -> Connection Established: /127.0.0.1:61178
+[2023-05-18T21:26:05.715331800] [CLIENT | /127.0.0.1:61174] -> Connection reset
+[2023-05-18T21:26:05.717334500] [CLIENT | /127.0.0.1:61174] -> ihsan's connection closed: /127.0.0.1:61174
+[2023-05-18T21:26:06.762841500] [CLIENT | /127.0.0.1:61178] -> Connection reset
+[2023-05-18T21:26:06.764844700] [CLIENT | /127.0.0.1:61178] -> ahmet's connection closed: /127.0.0.1:61178
+[2023-05-18T21:26:11.987118200] [SERVER] -> Server started and listening on port 8080
+[2023-05-18T21:26:25.983027] [CLIENT | /127.0.0.1:61203] -> Connection Established: /127.0.0.1:61203
+[2023-05-18T21:26:31.610697500] [CLIENT | /127.0.0.1:61204] -> Connection Established: /127.0.0.1:61204
+[2023-05-18T21:33:07.017609500] [CLIENT | /127.0.0.1:61204] -> Connection reset
+[2023-05-18T21:33:07.032596200] [CLIENT | /127.0.0.1:61204] -> ahmet's connection closed: /127.0.0.1:61204
+[2023-05-18T22:33:39.757607300] [SERVER] -> Server started and listening on port 8080
+[2023-05-18T22:38:27.018371400] [SERVER] -> Server started and listening on port 8080
+[2023-05-18T22:39:39.098156700] [CLIENT | /127.0.0.1:61576] -> Connection Established: /127.0.0.1:61576
+[2023-05-18T22:45:52.170486200] [SERVER] -> Server started and listening on port 8080
+[2023-05-18T22:47:02.885441] [CLIENT | /127.0.0.1:61613] -> Connection Established: /127.0.0.1:61613
+[2023-05-18T22:47:12.090859100] [CLIENT | /127.0.0.1:61614] -> Connection Established: /127.0.0.1:61614
+[2023-05-18T22:50:22.339929] [CLIENT | /127.0.0.1:61613] -> Connection reset
+[2023-05-18T22:50:22.353019900] [CLIENT | /127.0.0.1:61613] -> ihsan's connection closed: /127.0.0.1:61613
+[2023-05-18T22:50:23.144585300] [CLIENT | /127.0.0.1:61614] -> Connection reset
+[2023-05-18T22:50:23.145585400] [CLIENT | /127.0.0.1:61614] -> ahmet's connection closed: /127.0.0.1:61614
+[2023-05-18T22:50:37.682127] [SERVER] -> Server started and listening on port 8080
+[2023-05-18T22:50:48.508120] [CLIENT | /127.0.0.1:61635] -> Connection Established: /127.0.0.1:61635
+[2023-05-18T22:53:37.950472300] [SERVER] -> Server started and listening on port 8080
+[2023-05-18T22:53:47.673244700] [CLIENT | /127.0.0.1:61658] -> Connection Established: /127.0.0.1:61658
+[2023-05-18T22:54:32.106407900] [CLIENT | /127.0.0.1:61658] -> Socket closed
+[2023-05-18T22:54:32.117397] [CLIENT | /127.0.0.1:61658] -> ahmet's connection closed: /127.0.0.1:61658
+[2023-05-18T23:09:58.287087900] [SERVER] -> Server started and listening on port 8080
+[2023-05-20T13:59:55.342425600] [SERVER] -> Server started and listening on port 8080
+[2023-05-20T14:01:32.564355700] [SERVER] -> Server started and listening on port 8080
+[2023-05-20T14:57:21.767864200] [SERVER] -> Server started and listening on port 8080
+[2023-05-20T15:13:40.428579300] [SERVER] -> Server started and listening on port 8080
+[2023-05-20T15:23:03.693729500] [SERVER] -> Server started and listening on port 8080
+[2023-05-20T15:24:41.191771800] [SERVER] -> Server started and listening on port 8080
+[2023-05-20T15:26:52.841708300] [SERVER] -> Server started and listening on port 8080
+[2023-06-11T14:18:46.132904200] [SERVER] -> Server started and listening on port 8080
+[2023-06-11T14:19:26.845429200] [CLIENT | /127.0.0.1:63015] -> Connection Established: /127.0.0.1:63015
+[2023-06-11T14:19:26.853424200] [CLIENT | /127.0.0.1:63015] -> Player sent it's username [ ihsan ]
+[2023-06-11T14:19:26.858427100] [CLIENT | /127.0.0.1:63015] -> Player asked for available rooms
+[2023-06-11T14:19:28.284426900] [CLIENT | /127.0.0.1:63015] -> Player sent a room name to connect [ Test Room1 ]
+[2023-06-11T14:19:37.936080200] [CLIENT | /127.0.0.1:63019] -> Connection Established: /127.0.0.1:63019
+[2023-06-11T14:19:37.938077100] [CLIENT | /127.0.0.1:63019] -> Player sent it's username [ ahmet ]
+[2023-06-11T14:19:37.939084900] [CLIENT | /127.0.0.1:63019] -> Player asked for available rooms
+[2023-06-11T14:20:40.939779500] [CLIENT | /127.0.0.1:63019] -> Player sent a room name to connect [ Test Room1 ]
+[2023-06-11T14:20:49.162653] [CLIENT | /127.0.0.1:63019] -> Player made a move [from 23 to 22]
+[2023-06-11T14:20:51.315622] [CLIENT | /127.0.0.1:63019] -> Player made a move [from 23 to 17]
+[2023-06-11T14:20:56.820435800] [CLIENT | /127.0.0.1:63015] -> Player made a move [from 18 to 20]
+[2023-06-11T14:20:58.849513400] [CLIENT | /127.0.0.1:63015] -> Player made a move [from 18 to 21]
+[2023-06-11T14:21:23.177479200] [CLIENT | /127.0.0.1:63015] -> Connection reset
+[2023-06-11T14:21:23.193497600] [CLIENT | /127.0.0.1:63015] -> ihsan's connection closed: /127.0.0.1:63015
+[2023-06-11T14:21:23.576924100] [CLIENT | /127.0.0.1:63019] -> Connection reset
+[2023-06-11T14:21:23.578904400] [CLIENT | /127.0.0.1:63019] -> ahmet's connection closed: /127.0.0.1:63019

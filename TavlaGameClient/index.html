@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>BackGammon Game</title>
+</head>
+
+<body>
+	<div id="main" class="main">
+		<div class="user_area">
+			<div class="user" id="user_1">
+				<div class="image_div">
+					<img class="image" src="res/user_logo.svg" alt="">
+				</div>
+				<h1 class="username" id="username_1">Player 1</h1>
+				<h1 class="captured" id="captured_1">Captured: 0</h1>
+			</div>
+
+			<div class="user" id="user_2">
+				<div class="image_div">
+					<img class="image" src="res/user_logo.svg" alt="">
+				</div>
+				<h1 class="username" id="username_2">Player 2</h1>
+				<h1 class="captured" id="captured_2">Captured: 0</h1>
+			</div>
+		</div>
+
+		<div id="game_area" class="game_area">
+			<img class="image" src="res/game_board.png" alt="">
+			<div class="frame">
+				<div class="left_table_div">
+					<div class="corner_div">
+						<div id="column_11" class="column_top"></div>
+						<div id="column_10" class="column_top"></div>
+						<div id="column_9" class="column_top"></div>
+						<div id="column_8" class="column_top"></div>
+						<div id="column_7" class="column_top"></div>
+						<div id="column_6" class="column_top"></div>
+					</div>
+					<div class="corner_div">
+						<div id="column_12" class="column_bottom"></div>
+						<div id="column_13" class="column_bottom"></div>
+						<div id="column_14" class="column_bottom"></div>
+						<div id="column_15" class="column_bottom"></div>
+						<div id="column_16" class="column_bottom"></div>
+						<div id="column_17" class="column_bottom"></div>
+					</div>
+				</div>
+				<div class="middle_div"></div>
+				<div class="right_table_div">
+					<div class="corner_div">
+						<div id="column_5" class="column_top"></div>
+						<div id="column_4" class="column_top"></div>
+						<div id="column_3" class="column_top"></div>
+						<div id="column_2" class="column_top"></div>
+						<div id="column_1" class="column_top"></div>
+						<div id="column_0" class="column_top"></div>
+					</div>
+					<div class="corner_div">
+						<div id="column_18" class="column_bottom"></div>
+						<div id="column_19" class="column_bottom"></div>
+						<div id="column_20" class="column_bottom"></div>
+						<div id="column_21" class="column_bottom"></div>
+						<div id="column_22" class="column_bottom"></div>
+						<div id="column_23" class="column_bottom"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="collected_area">
+			<div class="collected" id="collected_1">
+				<div id="collected_1_height" class="collected_height"></div>
+			</div>
+			<div class="collected" id="collected_2">
+				<div id="collected_2_height" class="collected_height"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="start_menu" class="start">
+		<div id="left_div" class="left_div">
+			<div class="state">
+				<h1 class="connection_string">Server Status: </h1>
+				<h1 id="connection_status" class="connection_status"> Not Connected!</h1>
+			</div>
+			<input class="input" type="text" id="username_input" placeholder="Username">
+			<button class="button" id="connect_to_server">Connect</button>
+		</div>
+		<span class="vertical_seperator"></span>
+		<div id="right_div" class="right_div disabled">
+			<div class="room_headers">
+				<h1 class="state">Rooms</h1>
+				<h1 id="waiting_for_player" class="info"></h1>
+			</div>
+			<div class="rooms" id="rooms"></div>
+			<h1 class="or">or</h1>
+			<div class="create_room_div">
+				<button class="button">Create</button>
+				<input class="input" type="text" id="room_name_input" placeholder="Room Name">
+			</div>
+		</div>
+	</div>
+
+	<div id="p1_dice_div" class="div_for_dice">
+		<img id="p1_dice" class="dice_image" src="res/dice_1.svg" alt="">
+	</div>
+
+	<div id="p2_dice_div" class="div_for_dice">
+		<img id="p2_dice" class="dice_image" src="res/dice_2.svg" alt="">
+	</div>
+
+	<!-- <a id="attribute_wood" href="https://www.freepik.com/free-photo/dark-wood-wall_1037547.htm#query=wood%20texture&position=8&from_view=keyword&track=ais">Image by kues1</a> -->
+	<script src="./renderer.js"></script>
+</body>
+
+</html>

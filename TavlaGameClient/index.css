@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: rgb(25, 25, 25);
+	font-family: "IBM Plex Mono", monospace;
+	color: rgb(200, 200, 200);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(200, 200, 200, 0.2);
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(200, 200, 200, 0.6);
+}
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("res/background.svg");
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.game_area {
+	height: 600px;
+	border-radius: 10px;
+	overflow: hidden;
+	z-index: 3;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.user_area {
+	margin: 0;
+	width: 150px;
+	height: 600px;
+	margin-right: 25px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url("res/dark-wood-wall.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.user {
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.image_div {
+	width: 100%;
+	height: 50%;
+	filter: invert(91%) sepia(22%) saturate(0%) hue-rotate(270deg) brightness(91%) contrast(77%);
+}
+
+.collected_area {
+	margin: 0;
+	width: 76px;
+	height: 600px;
+	margin-left: 25px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url("res/dark-wood-wall.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.collected {
+	margin: 0;
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 10px;
+	border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.collected_height {
+	margin: 0;
+	width: 100%;
+	height: 0;
+}
+
+#collected_1_height {
+	background-color: #f0e8dd;
+}
+
+#collected_2_height {
+	background-color: #824f30;
+}
+
+#collected_1 {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#collected_2 {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+/******************************* START DIV *******************************/
+.start {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: calc(50% - 200px);
+	left: calc(25% - 300px);
+	right: 0;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	backdrop-filter: blur(10px) brightness(25%);
+	border: 1px solid rgba(200, 200, 200, 0.5);
+	font-size: 0.5rem;
+	transition: transform 250ms ease;
+}
+
+.vertical_seperator {
+	width: 1px;
+	height: calc(100% - 20px);
+	background-color: rgba(200, 200, 200, 0.5);
+	margin: 10px 0px 10px 0px;
+}
+
+.left_div {
+	height: calc(100% - 20px);
+	width: calc(50% - 20px);
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	transition: 250ms ease;
+}
+
+.state {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.connection_status {
+	display: flex;
+	justify-self: start;
+	align-self: center;
+	color: red;
+}
+
+.input {
+	border: 2px solid rgba(200, 200, 200, 0.5);
+	border-radius: 4px;
+	padding-left: 8px;
+	height: 30px;
+	color: white;
+	background-color: transparent;
+}
+
+input:focus {
+	border-color: red;
+	border: 2px solid red;
+}
+
+input[type="text"]:focus {
+	border-color: red;
+	border: 2px solid red;
+}
+
+.button {
+	width: 100%;
+	height: 35px;
+	border: 2px solid rgba(200, 200, 200, 0.5);
+	border-radius: 4px;
+	color: white;
+	background-color: transparent;
+	cursor: pointer;
+	font-weight: 600;
+	letter-spacing: 3px;
+
+	transition: 250ms ease;
+}
+
+.button:hover {
+	color: black;
+	background-color: rgb(255, 255, 255);
+}
+
+#connect_to_server {
+	margin-top: calc(100% - 12px);
+}
+
+.right_div {
+	height: calc(100% - 20px);
+	width: calc(50% - 20px);
+	margin: 10px;
+	transition: 250ms ease;
+}
+
+.or {
+	width: 100%;
+	height: 34px;
+	color: rgba(200, 200, 200, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+}
+
+.rooms {
+	height: 244px;
+	border: 2px solid rgba(200, 200, 200, 0.5);
+	border-radius: 4px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.room_headers {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.create_room_div {
+	display: flex;
+	flex-direction: row;
+}
+
+#connect_to_room {
+	margin: 10px 0px 10px 0px;
+}
+
+#room_name_input {
+	margin-left: 10px;
+}
+
+.room {
+	width: calc(100% - 10px);
+	height: 24px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+	margin: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	user-select: none;
+
+	transition: color 250ms ease, background-color 250ms ease, opacity 250ms ease;
+}
+
+.room:hover {
+	color: black;
+	background-color: rgb(255, 255, 255);
+}
+
+.room_name {
+	margin: 0;
+	width: 55%;
+	margin-left: 5%;
+	height: 100%;
+}
+
+.player_count {
+	width: 20%;
+	height: 100%;
+	margin: 0;
+}
+
+.loading_gif {
+	margin: 0;
+	width: 15%;
+	margin-right: 5%;
+	height: 100%;
+	object-fit: contain;
+	opacity: 0;
+}
+
+.load {
+	opacity: 1;
+}
+
+.info {
+	font-size: 0.8rem;
+	color: grey;
+	width: 400px;
+}
+
+.hide {
+	transform: translateY(2000px);
+	display: none;
+}
+
+.disabled {
+	user-select: none;
+	pointer-events: none;
+	opacity: 0.3;
+}
+
+.div_for_dice {
+	width: 50px;
+	height: 50px;
+	display: none;
+	transition: transform 1500ms ease-out;
+}
+
+.show_dice {
+	display: block;
+}
+
+.dice_image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+#p1_dice_div {
+	position: absolute;
+	top: 45%;
+	left: calc(50% + 10px);
+	z-index: 3;
+}
+
+#p2_dice_div {
+	position: absolute;
+	top: 55%;
+	left: calc(50% + 10px);
+	z-index: 3;
+}
+
+#attribute_wood {
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	left: 0;
+	text-align: center;
+	text-decoration: none;
+	color: grey;
+	font-size: 10px;
+}
+
+/******************************* GAME AREA *******************************/
+
+.frame {
+	margin: 20px;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	display: flex;
+	flex-direction: row;
+	transform: translateY(-604px);
+	user-select: none;
+}
+
+.corner_div {
+	margin: 0;
+	width: 422px;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+.middle_div {
+	margin: 0;
+	height: 100%;
+	width: 40px;
+}
+
+.column_top {
+	height: 100%;
+	width: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	overflow: hidden;
+	transition: filter 100ms ease, transform 100ms ease;
+}
+
+.column_bottom {
+	height: 100%;
+	width: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+	overflow: hidden;
+	transition: transform 250ms ease;
+}
+
+.column_bottom:hover {
+	background: radial-gradient(circle at center bottom, white 5%, transparent 25%);
+}
+
+.column_top:hover {
+	background: radial-gradient(circle at center top, white 5%, transparent 25%);
+}
+
+.selected {
+	filter: brightness(0) saturate(100%) invert(59%) sepia(58%) saturate(290%) hue-rotate(32deg) brightness(96%) contrast(84%);
+}
+
+.playable {
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+.rotate {
+	transform: rotate(1800deg);
+}
+
+.piece {
+	width: 40px;
+	height: 40px;
+	user-select: none;
+	cursor: move;
+}
+
+.captured {
+	font-size: 1rem;
+	margin: 0 auto;
+	color: black;
+	font-weight: 500;
+	user-select: none;
+	border: 1px solid saddlebrown;
+	border-radius: 10px;
+	background-color: rgb(222, 184, 135, 0.9);
+	width: 140px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	align-items: center;
+	transition: 250ms ease;
+}
+
+.captured:hover {
+	background-color: rgba(223, 215, 203, 0.9);
+}
